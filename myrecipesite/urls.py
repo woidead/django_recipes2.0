@@ -7,7 +7,7 @@ from myrecipesite.settings import MEDIA_ROOT, MEDIA_URL
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("recipes.urls")),
-    path('users/', include("users.urls")),
+    path('accounts/', include("users.urls")),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
