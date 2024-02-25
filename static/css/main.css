@@ -38,3 +38,37 @@ form{
     width: 500px;
     margin: 50px auto 0 auto;
 }
+
+.container-main{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.recipes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.recipe{
+    width: 1000px;
+    margin: 20px 0 0 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 15px 10px 15px;
+}
+
+.title a{
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.description{
+    border: none;
+    border-radius: 5px;
+    background-color: #4f97c171;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-align: start;
+    margin: 0;
+}
