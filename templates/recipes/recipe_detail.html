@@ -1,0 +1,21 @@
+{% extends "recipes/base.html" %}
+{% load static %}
+
+{% block title %} Рецепт {{ recipe.title | lower }} {% endblock %}
+
+{% block content %}
+
+<div class="container container-main">
+    <div class="author-title">
+        <div class="title-container"><h1>{{ recipe.title | upper }}</h1></div>
+        <div class="author-container"><h3>{{ recipe.author }}</h3></div>
+    </div>
+
+    <div class="description-instructions">
+        <div class="description-container"><p> <b>Описание рецепта:</b><br>{{ recipe.description }}</p></div>
+        <div class="instructions-container"><p><b>Инструкция к приготовлению рецепта:</b><br>{{ recipe.instructions }}</p></div>
+    </div>
+    
+</div>
+
+{% endblock %}
