@@ -11,3 +11,30 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+main{
+    color: #fff;
+}
+
+main .feature{
+    float: left;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+main .feature h1{font-style: 50px;}
+main .feature p {max-width: 500px; margin: 20px auto;}
+
+.alert-dark{
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 25%;
+    text-align: left;
+}
+
+form{
+    width: 500px;
+    margin: 50px auto 0 auto;
+}
