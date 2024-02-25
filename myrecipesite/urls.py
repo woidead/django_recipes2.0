@@ -6,6 +6,7 @@ from myrecipesite.settings import MEDIA_ROOT, MEDIA_URL
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include("recipes.urls")),
     path('users/', include("users.urls")),
 ]
 if settings.DEBUG:
