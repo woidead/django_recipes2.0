@@ -96,3 +96,15 @@ form{
 .description-container{
     min-width: 50%;
 }
+
+.comments{
+    width: 700px;
+    margin-top: 130px;
+}
+
+.comment-author{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+}

@@ -25,7 +25,7 @@ class RecipeForm(ModelForm):
 
 class CommentForm(forms.ModelForm):
     text = forms.CharField(
-        widget=forms.Textarea(attrs={
+        widget=forms.TextInput(attrs={
             'class':'form-control', 'placeholder':'Введите комментарий'
         })
     )
